@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import in.srid.model.Detail;
 
 @Component
-public class Service {
+public class DetailService {
 
     public Detail getDetail() {
         return new Detail( "Sridhar" , 29 , new Random().nextInt() );

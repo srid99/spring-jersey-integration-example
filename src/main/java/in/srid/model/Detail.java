@@ -10,9 +10,10 @@ public class Detail {
     private int random;
 
     public Detail() {
+        // needed for jackson
     }
 
-    public Detail(final String name , final int age , final int random) {
+    public Detail(final String name, final int age, final int random) {
         this.name = name;
         this.age = age;
         this.random = random;
@@ -22,7 +23,7 @@ public class Detail {
         return name;
     }
 
-    public void setName( final String name ) {
+    public void setName(final String name) {
         this.name = name;
     }
 
@@ -30,7 +31,7 @@ public class Detail {
         return age;
     }
 
-    public void setAge( final int age ) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -38,7 +39,7 @@ public class Detail {
         return random;
     }
 
-    public void setRandom( final int random ) {
+    public void setRandom(final int random) {
         this.random = random;
     }
 }
