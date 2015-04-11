@@ -25,7 +25,7 @@ If you like to use a different port then use the below command,
 
     mvn jetty:run -Djetty.port=9090
 
-Once the server started, our service must be available on [http://localhost:8080]() (here we are using the default port)
+Once the server started, our service must be available on http://localhost:8080 (here we are using the default port)
 
 You can terminate the process with a ctrl-c in the terminal window where it is running.
 
