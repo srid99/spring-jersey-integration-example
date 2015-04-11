@@ -20,8 +20,7 @@ Execute the below maven command,
 
     mvn jetty:run
 
-And that's it. We are good to go to test the application. By default jetty uses port 8080.
-If you like to use a different port then use the below command,
+By default jetty uses port 8080. If you like to use a different port then use the below command,
 
     mvn jetty:run -Djetty.port=9090
 
